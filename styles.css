@@ -1,0 +1,35 @@
+body {
+  font-family: "Source Serif Pro", serif; }
+
+#container {
+  margin: 0 auto;
+  max-width: 1080px; }
+
+.intro {
+  font-size: 1.618rem;
+  font-family: "Source Serif Pro", serif; }
+
+.intro header {
+  font-size: 4.236rem;
+  padding: 20px 0;
+  font-family: "Source Serif Pro", serif; }
+
+#content {
+  margin-left: -1.618rem;
+  margin-right: -1.618rem;
+  width: calc(100% + 3.236rem);
+  padding: 2.618rem 0; }
+  #content::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.project {
+  width: calc(50% - 2.427rem);
+  float: left;
+  margin-left: 1.618rem;
+  box-shadow: 0px 2px 5px #ccc; }
+  .project img {
+    width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */
